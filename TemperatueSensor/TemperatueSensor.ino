@@ -52,9 +52,9 @@ Serial.println(tempC);
 
 //print values on LCD screen 
 lcd.print("Temperature:");
-lcd.setCursor(10, 1); //second coulumn, row#5
+lcd.setCursor(10, 1); //eleventh coulumn, row#2
 lcd.print(tempC); //print temperature 
-lcd.setCursor(15, 1); //second coulumn, row#8
+lcd.setCursor(15, 1); //sixteenth coulumn, row#2
 lcd.print("C");  //unit of temperature
 
 //setup ranges of the buzzer and LEDs 
